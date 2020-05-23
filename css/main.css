@@ -10,7 +10,11 @@
   /* Code for Firefox */
   background-color: #7a77ff;
   color: #fff; }
-
+  
+  .parrafos{
+    font-size: 18px;
+  }
+  
 ::selection {
   background-color: #7a77ff;
   color: #fff; }

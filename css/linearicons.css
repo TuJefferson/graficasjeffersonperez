@@ -12,7 +12,7 @@
 
 .lnr {
 	font-family: 'Linearicons-Free';
-	speak: none;
+	speak-as: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -364,7 +364,7 @@
 	content: "\e870";
 }
 .lnr-menu:before {
-	content: "\e871";
+	content: "\e860";
 }
 .lnr-list:before {
 	content: "\e872";
