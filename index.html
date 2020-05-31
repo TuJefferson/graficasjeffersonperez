@@ -262,13 +262,13 @@
 											<input method="POST" data-netlify="true" name="email" placeholder="Correo electrónico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Correo electrónico'" class="common-input mt-10" required="" type="email">
 										</div>									
 										<div class="col-lg-12 flex-column">
-											<textarea method="POST" data-netlify="true" class="form-control mt-20" name="Mensaje" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" required=""></textarea>
-										</div>
 										
+										</div>
+									
 										<div class="col-lg-12 d-flex justify-content-end send-btn">
 											<button type="submit" class="submit-btn primary-btn mt-20 text-uppercase ">Enviar<span class="lnr lnr-arrow-right"></span></button>
 										</div>
-									
+										
 										<div class="alert-msg"></div>		
 									</div>
 					  		</form>
@@ -280,10 +280,10 @@
 
 			<form name="contact" method="POST" data-netlify="true">
 				<p>
-				  <label>Your Name: <input type="text" name="name" /></label>   
+					<input  method="POST" data-netlify="true" name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'" class="form-control mt-20" required="" type="text" required>
 				</p>
 				<p>
-				  <label>Your Email: <input type="email" name="email" /></label>
+					<input  name="email" placeholder="Correo electrónico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Correo electrónico'" class="common-input mt-10" required="" type="email">
 				</p>
 				<p>
 				  <label>Your Role: <select name="role[]" multiple>
@@ -292,10 +292,10 @@
 				  </select></label>
 				</p>
 				<p>
-				  <label>Message: <textarea name="message"></textarea></label>
+					<textarea  class="form-control mt-20" name="Mensaje" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" required=""></textarea>
 				</p>
 				<p>
-				  <button type="submit">Send</button>
+					<button  type="submit" class="submit-btn primary-btn mt-20 text-uppercase ">Enviar <span class="lnr lnr-arrow-right"></span></button>
 				</p>
 			  </form>
 			<!-- End contact Area -->
